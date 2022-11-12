@@ -1,0 +1,30 @@
+@media(max-width:1400px){
+    .poisk{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:1350px){
+        .A17{
+            flex-direction: column;
+        }
+}
+
+
+@media(max-width: 1240px ){
+
+    .A3{
+       justify-content: centerme!important;
+       align-items: center !important;
+       margin-right: 2000px;
+    }
+
+    .A2{
+        flex-direction: column;
+    }
+
+    .A6{
+        flex-direction: column;
+    }
+
+}

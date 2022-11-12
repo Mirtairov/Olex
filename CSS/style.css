@@ -1,0 +1,439 @@
+@import url(./media.css);
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:root{
+    --col: #eee0e03f;
+    --header:#1f2062;
+}
+
+.header__content{
+    background: var(--header);
+    padding: 0px 0px 30px;
+}
+
+.A2{
+    color: aqua;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.A3{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 750px;
+}
+
+.A4{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+    transition: .3s linear;
+}
+
+.A4:hover{
+    color:darkorange;
+    transition: .3s linear;
+    font-size: 23px;
+}
+
+.A5{
+    color: white;
+    text-decoration: none;
+    margin-right: 55px;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+.A6{
+    margin-right: 20px;
+}
+
+.btn1{
+    width: 140px;
+    height: 50px;
+    background: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    transition: .3s linear;
+    margin-left: 1300px;
+    margin-bottom: 10px;
+}
+
+.btn1:hover{
+    width: 150px;
+    height: 60px;
+    background: aqua;
+    transition: .3s linear;
+    box-shadow: 0px 0px 35px red;   
+}
+
+
+/* === Main starts ===  */
+
+
+/* === Section poisk starts ===  */
+
+.section__poisk{
+    background: var(--col);
+    padding: 30px;            
+}
+
+.poisk{
+    display: flex;
+}
+
+.poiskovik{
+    margin-right: 10px;
+}
+
+.poikovik2{
+    margin-right: 10px;
+}
+
+.A7{
+    width: 850px;
+    height: 69px;
+    margin-right: 1px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+
+.A8{
+    width: 350px;
+    height: 69px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+
+.A9{
+    width: 150px;
+    height: 69px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+
+
+/* === Section poisk Finished ===  */
+
+
+/* === Section Bosh toifalar Starts ===  */
+
+
+.section__Bosh-toifalar{
+    padding: 30px;
+}
+
+.A11{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img1{
+    width: 100px;
+    height: 80px;   
+    border-radius: 50px;
+}
+
+.A12{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.A13{
+    margin-right: 40px;
+}
+
+/* === Section Bosh toifalar Finished ===  */
+
+
+/* === Section PREMIUM E`LONLAR Starts ===  */
+
+.Premium__Elonlar{
+    background: rgb(211, 211, 211);
+    padding: 40px;
+}
+
+.A16{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.A17{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+}
+
+.block{
+    width: 320px;
+    height: 400px;
+    background: white;
+    border-radius: 15px;
+}
+
+.img2{
+    width: 320px;
+    height: 250px;
+    border-radius: 45px;
+}
+
+.block2 p {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon1{
+    color: rgb(211, 211, 211) ;
+    margin-left: 15px;
+    font-size: 20px;
+    transition: .2s linear;
+}
+
+.icon1:hover{
+    color: red;
+    transition: .2s linear;
+}
+
+.AA{
+    text-decoration: none;
+}
+
+.btn{
+    width: 150px;
+    height: 50px ;
+    color: white;
+    background: lime;
+    border: none;
+    border-radius: 10px; 
+    margin-left: 70px;
+    transition: .3s linear;
+}
+
+.btn:hover{
+    color: black;
+    transition: .3s linear;
+    background: red;
+}
+
+.A18{
+    margin-top: 30px    ;
+}
+
+.A19{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.A20{
+    margin-top: 30px;
+}
+
+.A21{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);   
+}
+
+.A22{
+    margin-top: 30px;
+}
+
+.A23{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+/* === Section PREMIUM E`LONLAR Finished ===  */
+
+
+
+/* === Section OLX__bilan Startet ===  */
+
+.OLX__bilan{
+    background: #08381f;
+    padding: 40px;
+}
+
+.A26{
+    color: white;
+    margin-right: 25px;
+}
+
+.A25{
+    display: flex;
+    justify-content: center;
+}
+
+.btn3{
+    width: 140px;
+    height: 50px;
+    color: black;
+    background: yellow;
+    border: none;
+    border-radius: 15px;
+    transition: .3s linear;
+}
+
+.btn3:hover{
+    color: white;
+    background:#05ff7e;
+    transition: .3s linear;
+}
+
+
+/* === Section OLX__bilan Finished ===  */
+
+
+
+/* === Section OLX Startet ===  */
+
+.OLX{
+    background: rgb(131, 207, 207);
+    padding: 40px; 
+}
+
+.A29{
+    color: aqua;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.A28 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* === Section OLX Finished ===  */
+
+
+
+/* === Section Olx__bolimlari Startet  ===  */
+
+.Olx__bolimlari{
+    padding: 40px;
+    background: white;
+}
+
+.icon2{
+    font-size: 100px;
+    color: yellow;
+    margin-bottom: 25px;
+}
+
+.A35{
+   display: grid;
+   grid-template-columns: repeat(2,1fr); 
+}
+
+
+/* === Main Finished ===  */
+
+
+/* === Footer  Startet  ===  */
+
+.Footer{
+    padding: 40px;
+    background: rgba(238, 238, 238, 0.473);
+}
+
+.A35{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.A36{
+    list-style: none;
+}
+
+.A37{
+    text-decoration: none;
+    color: black;
+}
+
+.img3{
+    width: 400px;
+    height: 60px;
+}
+
+
+/* === Footer  Finished ===  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* === Section Olx__bolimlari Finished ===  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
